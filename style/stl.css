@@ -163,7 +163,7 @@
 }
 
 #food-box {
-    width: 1920px;
+    width: 1880px;
     background: rgb(255, 255, 255);
     display: flex;
     justify-content: space-evenly;
@@ -200,16 +200,18 @@
 }
 
 #food-box .cook .btnn {
-    color: rgb(16, 16, 16);
+    /* color: rgb(16, 16, 16); */
     font-family: Work Sans;
     font-size: 26px;
     font-weight: 600;
     line-height: 32px;
     letter-spacing: 0%;
     opacity: 0.7;
-    box-sizing: border-box;
+    border-radius: none;
+    border: none;
+    /* box-sizing: border-box;
     border-bottom: 1px solid rgba(16, 16, 16, 0.2);
-    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2); */
     /* border: none; */
     padding: 30px 10px 30px 10px;
     text-align: center;
@@ -220,24 +222,71 @@
 #food-box .cook .icons {
     display: flex;
     margin-top: 62px;
-    justify-content:center;
+    justify-content: center;
     text-align: center;
-    gap:10px;
+    gap: 10px;
 }
 
-/* #food-box .cook .icons .fb {
-    background: rgb(255, 255, 255);
+#desc {
+    background: url(../assets/image\ 2.png);
+    height: 671px;
+    margin-top: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-#food-box .cook .icons .x {
-    background: rgb(0, 0, 0);
+#desc .prnt .desc-sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
-#food-box .cook .icons .ig {
-    background: radial-gradient(103.00% 103.00% at 61% 105%, rgba(140, 58, 170, 0) 64%, rgb(140, 58, 170) 100%)
-        warning: gradient uses a rotation that is not supported by CSS and may not behave as expected
-    ;
+#desc .prnt .desc-sub .desc-titale {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 114px;
 }
-#food-box .cook .icons .pn{
-    background: rgb(255, 255, 255);
-} */
+
+#desc .prnt .desc-sub .desc-pra {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 24px;
+}
+
+#desc .prnt .desc-sub .bttnn {
+    opacity: 0.5;
+    color: rgb(2, 2, 2);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: none;
+    border: none;
+    margin: 48px;
+}
+
+#desc .prnt .icon {
+    display: flex;
+    margin-top: 32px;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
